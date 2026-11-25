@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mounith D | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Mounith D, an aspiring software engineer and full stack developer.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Mounith D home">MD<span>.</span></a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+        </div>
+        <div class="nav-actions">
+            <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle dark mode">☾</button>
+            <a href="resume.pdf" download class="nav-contact">Resume <span>↓</span></a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow"><span></span> Available for opportunities</p>
+                <h1>Hi, I'm <strong>Mounith D.</strong></h1>
+                <p class="hero-role">Aspiring <span>Software Engineer</span></p>
+                <p class="hero-description">I build practical, user-focused web applications and turn ideas into reliable digital experiences.</p>
+                <div class="hero-actions">
+                    <a class="primary-button" href="#projects">Explore my work <span>↗</span></a>
+                    <a class="text-button" href="#contact">Let's connect <span>→</span></a>
+                </div>
+                <div class="hero-meta">
+                    <div><strong>01</strong><span>GitHub profile</span></div>
+                    <div><strong>03</strong><span>Featured projects</span></div>
+                    <div><strong>7.64</strong><span>Current CGPA</span></div>
+                </div>
+            </div>
+            <div class="hero-visual" aria-label="Developer profile illustration">
+                <div class="orb orb-one"></div>
+                <div class="orb orb-two"></div>
+                <div class="code-window">
+                    <div class="window-bar"><i></i><i></i><i></i></div>
+                    <pre><code><span class="code-purple">const</span> developer = {
+  name: <span class="code-green">"Mounith"</span>,
+  role: <span class="code-green">"Software Engineer"</span>,
+  skills: [<span class="code-green">"Java"</span>, <span class="code-green">"Python"</span>],
+  passion: <span class="code-green">"Build"</span>
+};</code></pre>
+                </div>
+                <div class="status-card">
+                    <span class="status-dot"></span>
+                    <div><small>Currently learning</small><strong>Full Stack Development</strong></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p>01 / About</p>
+                <h2>Driven by curiosity.<br><span>Built through practice.</span></h2>
+            </div>
+            <div class="about-grid">
+                <p class="about-lead">B.Tech IT student at Kongu Engineering College with a strong foundation in full stack development, databases, data structures, and algorithms.</p>
+                <div class="about-copy">
+                    <p>I enjoy solving real-world problems through clean code and thoughtful interfaces. My work spans web applications, machine learning, and database-driven systems.</p>
+                    <a href="#contact">More about me <span>→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <div class="section-heading">
+                <p>02 / Skills</p>
+                <h2>Technology I work <span>with.</span></h2>
+            </div>
+            <div class="skills-grid">
+                <article><span>01</span><h3>Frontend</h3><p>HTML, CSS, JavaScript, Bootstrap</p></article>
+                <article><span>02</span><h3>Backend</h3><p>Java, Python, PHP, Flask</p></article>
+                <article><span>03</span><h3>Database</h3><p>MySQL, MongoDB, XAMPP</p></article>
+                <article><span>04</span><h3>Tools</h3><p>Git, GitHub, VS Code, Jira</p></article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading project-heading">
+                <div><p>03 / Projects</p><h2>Selected <span>work.</span></h2></div>
+                <a class="github-link" href="https://github.com/Mounith2005" target="_blank" rel="noreferrer">View GitHub <span>↗</span></a>
+            </div>
+            <div class="project-grid">
+                <article class="project-card featured">
+                    <div class="project-top"><span class="project-number">01</span><a href="https://github.com/Mounith2005/Agro-gaurd" target="_blank" rel="noreferrer" aria-label="Open Agro-Guard project">↗</a></div>
+                    <div class="project-icon">🌿</div>
+                    <p class="project-category">AI / Machine Learning</p>
+                    <h3>Agro-Guard</h3>
+                    <p>A plant disease detection web app that predicts leaf health using machine learning and a Flask backend.</p>
+                    <div class="tags"><span>Python</span><span>Flask</span><span>ML</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-top"><span class="project-number">02</span><a href="https://github.com/Mounith2005/SudokuSolver" target="_blank" rel="noreferrer" aria-label="Open Sudoku Solver project">↗</a></div>
+                    <div class="project-icon sudoku-icon">▦</div>
+                    <p class="project-category">Algorithms / Python</p>
+                    <h3>Sudoku Solver</h3>
+                    <p>An efficient AI-based solver using recursion and backtracking to validate and complete puzzles.</p>
+                    <div class="tags"><span>Python</span><span>Backtracking</span></div>
+                </article>
+                <article class="project-card">
+                    <div class="project-top"><span class="project-number">03</span><a href="https://github.com/Mounith2005/car-rentel" target="_blank" rel="noreferrer" aria-label="Open car rental project">↗</a></div>
+                    <div class="project-icon rental-icon">🚗</div>
+                    <p class="project-category">Web Development</p>
+                    <h3>Car Rental Application</h3>
+                    <p>A responsive booking platform for browsing vehicles, pricing, availability, and rental details.</p>
+                    <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" class="section education-section">
+            <div class="section-heading">
+                <p>04 / Journey</p>
+                <h2>Education & <span>recognition.</span></h2>
+            </div>
+            <div class="journey-grid">
+                <article class="journey-card"><p class="journey-date">2023 — 2027</p><h3>B.Tech — Information Technology</h3><p>Kongu Engineering College, Erode</p><strong>CGPA: 7.64 / 10</strong></article>
+                <article class="journey-card highlight"><p class="journey-date">Achievement</p><h3>1st Prize — Tecno Fest Ideathon</h3><p>Plant Disease Prediction project at Kongu Engineering College</p></article>
+                <article class="journey-card"><p class="journey-date">Certification</p><h3>Oracle Java SE 17 Developer</h3><p>Oracle Certified professional credential</p></article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <p>05 / Contact</p>
+            <h2>Have a project in mind?<br><span>Let's build it together.</span></h2>
+            <a class="primary-button" href="mailto:mounithd7@gmail.com">mounithd7@gmail.com <span>↗</span></a>
+            <div class="contact-links">
+                <a href="tel:+916383835739">+91 63838 35739</a>
+                <a href="https://github.com/Mounith2005" target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a href="https://linkedin.com/in/mounith-dharmarajan-796192291" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            </div>
+        </section>
+    </main>
+
+    <footer><p>© 2026 Mounith D</p><a href="#home">Back to top ↑</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>
